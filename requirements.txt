@@ -4,3 +4,6 @@ transformers
 opencv-python
 numpy
 matplotlib
+numpy
+opencv-python
+Pillow
