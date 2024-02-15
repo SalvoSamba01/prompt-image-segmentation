@@ -35,4 +35,24 @@ This project demonstrates object segmentation using the SAM (Segment Anything wi
     - `<path to image>`: The path to the image file you want to segment.
     - `<'s'/'a'>`: Choose between 's' to view one mask at a time or 'a' to view all masks in one image.
 
-2. Follow
+2. Follow the prompts to enter the object you want to segment. Type 'exit' to stop the demo.
+
+## Examples
+
+- To segment a single object and view one mask at a time:
+
+  ```bash
+  python textSam.py path/to/image.jpg s
+  ```
+
+- To segment multiple objects and view all masks in one image:
+
+  ```bash
+  python textSam.py path/to/image.jpg a
+  ```
+
+
+## Acknowledgments
+
+- The SAM model is based on the [OwlVision](https://github.com/google-research/owlvision) project by Google Research.
+- The SAM model checkpoint used in this project is available at https://github.com/facebookresearch/segment-anything.
