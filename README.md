@@ -54,5 +54,5 @@ This project demonstrates object segmentation using the SAM (Segment Anything wi
 
 ## Acknowledgments
 
-- The SAM model is based on the [OwlVision](https://github.com/google-research/owlvision) project by Google Research.
+- The SAM model is based on the [OwlVision](https://arxiv.org/pdf/2205.06230.pdf) project by Google Research.
 - The SAM model checkpoint used in this project is available at https://github.com/facebookresearch/segment-anything.
