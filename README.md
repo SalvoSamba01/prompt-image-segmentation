@@ -24,7 +24,9 @@ This project demonstrates object segmentation using the SAM (Segment Anything wi
     pip install -r requirements.txt
     ```
 
-## Usage
+3. Download SAM model checkpoints at [SAM Github Repository](https://github.com/facebookresearch/segment-anything). 
+
+## Usage (textSam.py)
 
 1. Run the script `textSam.py` with the following command:
 
@@ -37,22 +39,42 @@ This project demonstrates object segmentation using the SAM (Segment Anything wi
 
 2. Follow the prompts to enter the object you want to segment. Type 'exit' to stop the demo.
 
+
+## Usage (SAM.py)
+
+1. Run the script `SAM.py` with the following command:
+
+    ```bash
+    python textSam.py <path to image> <'l'/'h'/'b'>
+    ```
+
+    - `<path to image>`: The path to the image file you want to segment.
+    - `<'l'/'h'/'b'>`: Choose between 'ViT-l', 'ViT-h' or 'ViT-b' model.
+      
+2. Follow the prompts.
+
 ## Examples
 
-- To segment a single object and view one mask at a time:
+- To segment objects and view one mask at a time:
 
   ```bash
   python textSam.py path/to/image.jpg s
   ```
 
-- To segment multiple objects and view all masks in one image:
+- To segment objects and view all masks in one image:
 
   ```bash
   python textSam.py path/to/image.jpg a
+  ```
+
+  - To run SAM with ViT-h model:
+
+  ```bash
+  python textSam.py path/to/image.jpg h
   ```
 
 
 ## Acknowledgments
 
 - The SAM model is based on the [OwlVision](https://arxiv.org/pdf/2205.06230.pdf) project by Google Research.
-- The SAM model checkpoint used in this project is available at https://github.com/facebookresearch/segment-anything.
+- The SAM model checkpoint used in this project is available at [SAM Github Repository](https://github.com/facebookresearch/segment-anything).
