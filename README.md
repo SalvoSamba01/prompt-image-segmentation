@@ -70,7 +70,7 @@ This project demonstrates object segmentation using the SAM (Segment Anything wi
 - To run SAM with ViT-h model:
 
   ```bash
-  python textSam.py path/to/image.jpg h
+  python SAM.py path/to/image.jpg h
   ```
 
 
