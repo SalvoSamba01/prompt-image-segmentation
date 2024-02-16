@@ -1,4 +1,4 @@
-This project demonstrates object segmentation using the SAM (Segment Anything with Masking) model. SAM is a vision transformer-based model that can segment objects in images given a textual description.
+This project demonstrates object segmentation using the SAM (Segment Anything with Masking) model. SAM is a vision transformer-based model that can segment objects in images given a proper prompt.
 
 ## Prerequisites
 
