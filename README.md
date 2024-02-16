@@ -24,7 +24,7 @@ This project demonstrates object segmentation using the SAM (Segment Anything wi
     pip install -r requirements.txt
     ```
 
-3. Download SAM model checkpoints at [SAM Github Repository](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints)). 
+3. Install SAM and download model checkpoints following instructions at [SAM Github Repository](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints)). 
 
 ## Usage (textSam.py)
 
