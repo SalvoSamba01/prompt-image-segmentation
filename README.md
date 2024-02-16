@@ -15,7 +15,7 @@ This project demonstrates object segmentation using the SAM (Segment Anything wi
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/SalvoSamba01/textual-image-segmentation
     ```
 
 2. Install the required dependencies:
